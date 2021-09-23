@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo Blanchard - Blog</title>
+    <link>https://hblanchard.me/</link>
+    <description>Recent content on Hugo Blanchard - Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Wed, 22 Sep 2021 14:04:24 +0200</lastBuildDate><atom:link href="https://hblanchard.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mon matos de 2021</title>
+      <link>https://hblanchard.me/post/matos-2021/</link>
+      <pubDate>Wed, 22 Sep 2021 14:04:24 +0200</pubDate>
+      
+      <guid>https://hblanchard.me/post/matos-2021/</guid>
+      
+        <description>Hardware quotidien MacBook Pro 2020 13 pouces  Intel Core i7 16Go de RAM 256Go de SSD  Et oui, pas de puce M1 : J&amp;rsquo;ai besoin de pouvoir lancer bootcamp et de la virtualisation.</description>
+      
+    </item>
+    
+    <item>
+      <title>À propos</title>
+      <link>https://hblanchard.me/about/</link>
+      <pubDate>Wed, 22 Sep 2021 09:12:16 +0200</pubDate>
+      
+      <guid>https://hblanchard.me/about/</guid>
+      
+        <description>Bonjour! Je suis un développeur fullstack passionné par la tech. Je suis actuellement en formation ingénieur à l&amp;rsquo;UTBM,</description>
+      
+    </item>
+    
+    <item>
+      <title>Bienvenue sur mon blog</title>
+      <link>https://hblanchard.me/post/bienvenue/</link>
+      <pubDate>Wed, 22 Sep 2021 08:33:48 +0200</pubDate>
+      
+      <guid>https://hblanchard.me/post/bienvenue/</guid>
+      
+        <description>Salut à vous jeunes lecteurs ! C&amp;rsquo;est ici que je note mes pensées, idées ou pense-bête.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

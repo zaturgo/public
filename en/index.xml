@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo Blanchard - Blog</title>
+    <link>https://hblanchard.me/en/</link>
+    <description>Recent content on Hugo Blanchard - Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Wed, 22 Sep 2021 08:33:48 +0200</lastBuildDate><atom:link href="https://hblanchard.me/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://hblanchard.me/en/about/</link>
+      <pubDate>Wed, 22 Sep 2021 09:12:16 +0200</pubDate>
+      
+      <guid>https://hblanchard.me/en/about/</guid>
+      
+        <description>Hello! I&amp;rsquo;m a fullstack developper who loves tech! I&amp;rsquo;m actually in a work-study program in the UTBM,</description>
+      
+    </item>
+    
+    <item>
+      <title>Bienvenue</title>
+      <link>https://hblanchard.me/en/post/bienvenue/</link>
+      <pubDate>Wed, 22 Sep 2021 08:33:48 +0200</pubDate>
+      
+      <guid>https://hblanchard.me/en/post/bienvenue/</guid>
+      
+        <description>#Welcome to my blog ! ##Content</description>
+      
+    </item>
+    
+  </channel>
+</rss>

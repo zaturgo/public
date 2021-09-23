@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MX Master 3 on Hugo Blanchard - Blog</title>
+    <link>https://hblanchard.me/tags/mx-master-3/</link>
+    <description>Recent content in MX Master 3 on Hugo Blanchard - Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Wed, 22 Sep 2021 14:04:24 +0200</lastBuildDate><atom:link href="https://hblanchard.me/tags/mx-master-3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mon matos de 2021</title>
+      <link>https://hblanchard.me/post/matos-2021/</link>
+      <pubDate>Wed, 22 Sep 2021 14:04:24 +0200</pubDate>
+      
+      <guid>https://hblanchard.me/post/matos-2021/</guid>
+      
+        <description>Hardware quotidien MacBook Pro 2020 13 pouces  Intel Core i7 16Go de RAM 256Go de SSD  Et oui, pas de puce M1 : J&amp;rsquo;ai besoin de pouvoir lancer bootcamp et de la virtualisation.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

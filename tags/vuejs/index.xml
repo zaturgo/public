@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VueJS on Hugo Blanchard - Blog</title>
+    <link>https://hblanchard.me/tags/vuejs/</link>
+    <description>Recent content in VueJS on Hugo Blanchard - Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Wed, 22 Sep 2021 09:12:16 +0200</lastBuildDate><atom:link href="https://hblanchard.me/tags/vuejs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>À propos</title>
+      <link>https://hblanchard.me/about/</link>
+      <pubDate>Wed, 22 Sep 2021 09:12:16 +0200</pubDate>
+      
+      <guid>https://hblanchard.me/about/</guid>
+      
+        <description>Bonjour! Je suis un développeur fullstack passionné par la tech. Je suis actuellement en formation ingénieur à l&amp;rsquo;UTBM,</description>
+      
+    </item>
+    
+  </channel>
+</rss>
