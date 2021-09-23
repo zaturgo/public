@@ -1,18 +1,58 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://hblanchard.me/fr/sitemap.xml</loc>
-    
-      <lastmod>2021-09-24T00:00:15+02:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://hblanchard.me/en/sitemap.xml</loc>
-    
-      <lastmod>2021-09-22T08:33:48+02:00</lastmod>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://hblanchard.me/notes/intellij-setup/</loc>
+    <lastmod>2021-09-24T00:00:15+02:00</lastmod>
+  </url><url>
+    <loc>https://hblanchard.me/notes/</loc>
+    <lastmod>2021-09-24T00:00:15+02:00</lastmod>
+  </url><url>
+    <loc>https://hblanchard.me/notes/macos-setup/</loc>
+    <lastmod>2021-09-24T00:00:06+02:00</lastmod>
+  </url><url>
+    <loc>https://hblanchard.me/notes/terminal-setup/</loc>
+    <lastmod>2021-09-23T23:59:59+02:00</lastmod>
+  </url><url>
+    <loc>https://hblanchard.me/tags/airpods-pro/</loc>
+    <lastmod>2021-09-22T14:04:24+02:00</lastmod>
+  </url><url>
+    <loc>https://hblanchard.me/tags/iphone-12/</loc>
+    <lastmod>2021-09-22T14:04:24+02:00</lastmod>
+  </url><url>
+    <loc>https://hblanchard.me/tags/macbook-pro/</loc>
+    <lastmod>2021-09-22T14:04:24+02:00</lastmod>
+  </url><url>
+    <loc>https://hblanchard.me/post/matos-2021/</loc>
+    <lastmod>2021-09-22T14:04:24+02:00</lastmod>
+  </url><url>
+    <loc>https://hblanchard.me/tags/mx-master-3/</loc>
+    <lastmod>2021-09-22T14:04:24+02:00</lastmod>
+  </url><url>
+    <loc>https://hblanchard.me/post/</loc>
+    <lastmod>2021-09-22T14:04:24+02:00</lastmod>
+  </url><url>
+    <loc>https://hblanchard.me/tags/</loc>
+    <lastmod>2021-09-22T14:04:24+02:00</lastmod>
+  </url><url>
+    <loc>https://hblanchard.me/tags/alternance/</loc>
+    <lastmod>2021-09-22T09:12:16+02:00</lastmod>
+  </url><url>
+    <loc>https://hblanchard.me/tags/fullstack/</loc>
+    <lastmod>2021-09-22T09:12:16+02:00</lastmod>
+  </url><url>
+    <loc>https://hblanchard.me/tags/laravel/</loc>
+    <lastmod>2021-09-22T09:12:16+02:00</lastmod>
+  </url><url>
+    <loc>https://hblanchard.me/tags/vuejs/</loc>
+    <lastmod>2021-09-22T09:12:16+02:00</lastmod>
+  </url><url>
+    <loc>https://hblanchard.me/about/</loc>
+    <lastmod>2021-09-22T09:12:16+02:00</lastmod>
+  </url><url>
+    <loc>https://hblanchard.me/</loc>
+    <lastmod>2021-09-22T08:33:48+02:00</lastmod>
+  </url><url>
+    <loc>https://hblanchard.me/categories/</loc>
+  </url>
+</urlset>
