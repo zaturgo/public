@@ -30,17 +30,6 @@
     </item>
     
     <item>
-      <title>Assassin&#39;s Creed n&#39;est plus Assassin&#39;s Creed</title>
-      <link>https://hblanchard.me/posts/assassins-creed-analyse/</link>
-      <pubDate>Fri, 24 Sep 2021 13:51:58 +0200</pubDate>
-      
-      <guid>https://hblanchard.me/posts/assassins-creed-analyse/</guid>
-      
-        <description>La licence a perdu son objectif premier de vue, nous faire voyager.</description>
-      
-    </item>
-    
-    <item>
       <title>IntelliJ Setup</title>
       <link>https://hblanchard.me/notes/intellij-setup/</link>
       <pubDate>Fri, 24 Sep 2021 00:00:15 +0200</pubDate>
@@ -72,6 +61,17 @@
         <description>iTerm2 brew cask install iterm2
 zsh brew install zsh
 oh-my-zsh sh -c &amp;quot;$(curl -fsSL https://raw.</description>
+      
+    </item>
+    
+    <item>
+      <title>Assassin&#39;s Creed n&#39;est plus Assassin&#39;s Creed</title>
+      <link>https://hblanchard.me/posts/assassins-creed-analyse/</link>
+      <pubDate>Thu, 23 Sep 2021 13:51:58 +0200</pubDate>
+      
+      <guid>https://hblanchard.me/posts/assassins-creed-analyse/</guid>
+      
+        <description>La licence a perdu son objectif premier de vue, nous faire voyager.</description>
       
     </item>
     
