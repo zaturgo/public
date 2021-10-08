@@ -90,13 +90,11 @@
   
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="GitLab CI Heroku Laravel/VueJs"/>
-<meta name="twitter:description" content="`image: lorisleiva/laravel-docker:latest
+<meta name="twitter:description" content="image: lorisleiva/laravel-docker:latest
 composer:
-stage: build
-cache:
-key: ${CI_COMMIT_REF_SLUG}-composer
-paths:
-- vendor/"/>
+stage: build 
+cache: 
+key: ${CI_COMMIT_REF_SLUG}-composer"/>
 
 
 
@@ -117,7 +115,7 @@ paths:
         "alternativeHeadline": "",
         "description": "
       
-        `image: lorisleiva\/laravel-docker:latest\ncomposer:\nstage: build\ncache:\nkey: ${CI_COMMIT_REF_SLUG}-composer\npaths:\n- vendor\/
+        image: lorisleiva\/laravel-docker:latest\ncomposer:\nstage: build \ncache: \nkey: ${CI_COMMIT_REF_SLUG}-composer
 
 
       
@@ -167,7 +165,7 @@ paths:
 
     ,
         "url" : "https:\/\/hblanchard.me\/notes\/laravel-vuejs-gitlab-heroku-deployement\/",
-        "wordCount" : "120",
+        "wordCount" : "122",
         "genre" : [ ],
         "keywords" : [ ]
     }
@@ -353,63 +351,61 @@ paths:
       <div class="post-title">
         <h1>GitLab CI Heroku Laravel/VueJs</h1>
         
-      </div><p>`image: lorisleiva/laravel-docker:latest<br>
-composer:<br>
-stage: build<br>
-cache:<br>
-key: ${CI_COMMIT_REF_SLUG}-composer<br>
-paths:<br>
-- vendor/<br>
-script:<br>
-- composer install &ndash;no-ansi &ndash;no-interaction &ndash;no-progress &ndash;no-scripts &ndash;no-dev<br>
-- cp .env.example .env<br>
-- php artisan key:generate<br>
-artifacts:<br>
-expire_in: 1 month<br>
-paths:<br>
-- vendor/<br>
-- .env<br>
-only:
-- production<br>
-npm:<br>
-stage: build</p>
-<p>script:<br>
-- npm install<br>
-- cp .env.example .env<br>
-- npm run production<br>
-artifacts:<br>
-expire_in: 1 month<br>
-paths:<br>
-- public/css/<br>
-- public/images/<br>
-- public/img/<br>
-- public/js/<br>
-- public/js/<em>.LICENSE.txt<br>
-- public/</em>.js<br>
-- public/*.LICENSE.txt<br>
-- public/mix-manifest.json<br>
-- storage/app/public/<br>
-only:<br>
-- production</p>
-<p>stages:</p>
-<ul>
-<li>build</li>
-<li>test</li>
-<li>deploy</li>
-</ul>
-<p>production:<br>
-stage: deploy<br>
-script:<br>
-- apk update<br>
-- apk add git<br>
-- apk add ruby-dev<br>
-- gem install json<br>
-- gem install dpl<br>
-- dpl &ndash;provider=heroku &ndash;app=$HEROKU_APP_PRODUCTION &ndash;api-key=$HEROKU_API_KEY<br>
-environment:<br>
-name: production<br>
-only:<br>
-- production   `</p>
+      </div><p><code>image: lorisleiva/laravel-docker:latest</code><br>
+<code>composer:</code><br>
+<code>stage: build  </code><br>
+<code>cache:  </code><br>
+<code>key: ${CI_COMMIT_REF_SLUG}-composer </code><br>
+<code>paths: </code><br>
+<code> - vendor/ </code><br>
+<code>script: </code> <br>
+<code>  - composer install --no-ansi --no-interaction --no-progress --no-scripts --no-dev </code><br>
+<code> - cp .env.example .env </code><br>
+<code> - php artisan key:generate </code><br>
+<code>artifacts: </code><br>
+<code> expire_in: 1 month </code><br>
+<code> paths: </code><br>
+<code>  - vendor/ </code><br>
+<code>   - .env </code><br>
+<code> only:</code><br>
+<code> - production </code><br>
+<code>npm: </code><br>
+<code> stage: build </code></p>
+<p><code>script: </code><br>
+<code> - npm install </code><br>
+<code> - cp .env.example .env</code><br>
+<code> - npm run production</code><br>
+<code>artifacts: </code><br>
+<code>   expire_in: 1 month </code><br>
+<code>   paths: </code><br>
+<code>      - public/css/</code> <br>
+<code>      - public/images/</code> <br>
+<code>     - public/img/ </code><br>
+<code>     - public/js/ </code><br>
+<code>     - public/js/*.LICENSE.txt </code><br>
+<code>     - public/*.js </code><br>
+<code>     - public/*.LICENSE.txt </code><br>
+<code>     - public/mix-manifest.json</code><br>
+<code>     - storage/app/public/ </code><br>
+<code> only: </code><br>
+<code>   - production</code></p>
+<p><code>stages: </code><br>
+<code>- build  </code><br>
+<code>- test </code><br>
+<code> - deploy </code></p>
+<p><code>production:  </code><br>
+<code> stage: deploy</code> <br>
+<code>script: </code><br>
+<code>  - apk update</code><br>
+<code>  - apk add git</code><br>
+<code>  - apk add ruby-dev</code> <br>
+<code> - gem install json </code><br>
+<code> - gem install dpl </code><br>
+<code> - dpl --provider=heroku --app=$HEROKU_APP_PRODUCTION --api-key=$HEROKU_API_KEY</code><br>
+<code>  environment: </code><br>
+<code>    name: production </code><br>
+<code>only:</code><br>
+<code>  - production  </code></p>
 </div>
     <div class="post-footer">
       <div class="info">

@@ -14,13 +14,11 @@
       
       <guid>https://hblanchard.me/notes/laravel-vuejs-gitlab-heroku-deployement/</guid>
       
-        <description>`image: lorisleiva/laravel-docker:latest
+        <description>image: lorisleiva/laravel-docker:latest
 composer:
-stage: build
-cache:
-key: ${CI_COMMIT_REF_SLUG}-composer
-paths:
-- vendor/</description>
+stage: build 
+cache: 
+key: ${CI_COMMIT_REF_SLUG}-composer</description>
       
     </item>
     
