@@ -7,7 +7,7 @@
   <title>
     Hugo Blanchard
       |
-      Notes
+      GitLab CI Heroku Laravel/VueJs
 
 
     
@@ -64,12 +64,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 
-  <link rel="canonical" href="/notes/" />
+  <link rel="canonical" href="/notes/laravel-vuejs-gitlab-heroku-deployement/" />
 
   
-  <link rel="alternate" type="application/rss+xml" href="/notes/index.xml" title="Hugo Blanchard - Blog" />
-
-
   
   
   
@@ -92,8 +89,13 @@
 
   
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Notes"/>
-<meta name="twitter:description" content="Développeur web fullstack &lt;br&gt; Étudiant en ingénierie informatique"/>
+<meta name="twitter:title" content="GitLab CI Heroku Laravel/VueJs"/>
+<meta name="twitter:description" content="` image: lorisleiva/laravel-docker:latest
+composer:
+stage: build
+cache:
+key: ${CI_COMMIT_REF_SLUG}-composer
+paths:"/>
 
 
 
@@ -102,6 +104,75 @@
 
   
   
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "notes",
+        "name": "GitLab CI Heroku Laravel\/VueJs",
+        "headline": "GitLab CI Heroku Laravel\/VueJs",
+        "alternativeHeadline": "",
+        "description": "
+      
+        ` image: lorisleiva\/laravel-docker:latest\ncomposer:\nstage: build\ncache:\nkey: ${CI_COMMIT_REF_SLUG}-composer\npaths:
+
+
+      
+
+
+    ",
+        "inLanguage": "fr",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/hblanchard.me\/notes\/laravel-vuejs-gitlab-heroku-deployement\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Hugo Blanchard"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Hugo Blanchard"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Hugo Blanchard"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Hugo Blanchard"
+        },
+        "copyrightYear" : "2021",
+        "dateCreated": "2021-10-08T13:29:34.00Z",
+        "datePublished": "2021-10-08T13:29:34.00Z",
+        "dateModified": "2021-10-08T13:29:34.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Hugo Blanchard",
+            "url": "https://hblanchard.me/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/hblanchard.me\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+      ]
+
+    ,
+        "url" : "https:\/\/hblanchard.me\/notes\/laravel-vuejs-gitlab-heroku-deployement\/",
+        "wordCount" : "121",
+        "genre" : [ ],
+        "keywords" : [ ]
+    }
+  </script>
+
+
 
 </head>
 <body>
@@ -148,9 +219,6 @@
           
           <li>
             <a
-              
-                class="current"
-
               
               href="/notes/"
               
@@ -274,55 +342,85 @@
         <div class="autopagerize_page_element">
           <div class="content">
   <div
-    class="archive 
+    class="post 
       animated fadeInDown
 
     "
   >
-    <ul class="list-with-title">
+    <div class="post-content">
       
-        <div class="listing-title">2021</div>
+      <div class="post-title">
+        <h1>GitLab CI Heroku Laravel/VueJs</h1>
         
-          <ul class="listing">
-            <div class="listing-item">
-              <div class="listing-post">
-                <a href="/notes/laravel-vuejs-gitlab-heroku-deployement/" title="GitLab CI Heroku Laravel/VueJs">GitLab CI Heroku Laravel/VueJs</a>
-                <div class="post-time">
-                  <span class="date"
-                    >
-                      8 Oct
-
-
-                    </span
-                  >
-                </div>
-              </div>
-            </div>
-          </ul>
+      </div><p>`
+image: lorisleiva/laravel-docker:latest<br>
+composer:<br>
+stage: build<br>
+cache:<br>
+key: ${CI_COMMIT_REF_SLUG}-composer<br>
+paths:<br>
+- vendor/<br>
+script:<br>
+- composer install &ndash;no-ansi &ndash;no-interaction &ndash;no-progress &ndash;no-scripts &ndash;no-dev<br>
+- cp .env.example .env<br>
+- php artisan key:generate<br>
+artifacts:<br>
+expire_in: 1 month<br>
+paths:<br>
+- vendor/<br>
+- .env<br>
+only:
+- production<br>
+npm:<br>
+stage: build</p>
+<p>script:<br>
+- npm install<br>
+- cp .env.example .env<br>
+- npm run production<br>
+artifacts:<br>
+expire_in: 1 month<br>
+paths:<br>
+- public/css/<br>
+- public/images/<br>
+- public/img/<br>
+- public/js/<br>
+- public/js/<em>.LICENSE.txt<br>
+- public/</em>.js<br>
+- public/*.LICENSE.txt<br>
+- public/mix-manifest.json<br>
+- storage/app/public/<br>
+only:<br>
+- production</p>
+<p>stages:</p>
+<ul>
+<li>build</li>
+<li>test</li>
+<li>deploy</li>
+</ul>
+<p>production:<br>
+stage: deploy<br>
+script:<br>
+- apk update<br>
+- apk add git<br>
+- apk add ruby-dev<br>
+- gem install json<br>
+- gem install dpl<br>
+- dpl &ndash;provider=heroku &ndash;app=$HEROKU_APP_PRODUCTION &ndash;api-key=$HEROKU_API_KEY<br>
+environment:<br>
+name: production<br>
+only:<br>
+- production<br>
+`</p>
+</div>
+    <div class="post-footer">
+      <div class="info">
+        
 
         
-          <ul class="listing">
-            <div class="listing-item">
-              <div class="listing-post">
-                <a href="/notes/terminal-setup/" title="Terminal Setup">Terminal Setup</a>
-                <div class="post-time">
-                  <span class="date"
-                    >
-                      23 Sep
+      </div>
+    </div>
 
-
-                    </span
-                  >
-                </div>
-              </div>
-            </div>
-          </ul>
-
-        
-
-
-      
-    </ul>
+    
   </div>
 
 
