@@ -8,6 +8,28 @@
     <language>fr</language>
     <lastBuildDate>Wed, 22 Sep 2021 08:33:48 +0200</lastBuildDate><atom:link href="https://hblanchard.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>IntelliJ Setup</title>
+      <link>https://hblanchard.me/notes/intellij-setup/</link>
+      <pubDate>Sun, 24 Oct 2021 00:00:15 +0200</pubDate>
+      
+      <guid>https://hblanchard.me/notes/intellij-setup/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Macos Setup</title>
+      <link>https://hblanchard.me/notes/macos-setup/</link>
+      <pubDate>Sun, 24 Oct 2021 00:00:06 +0200</pubDate>
+      
+      <guid>https://hblanchard.me/notes/macos-setup/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
       <title>Mes logiciels favoris - 2021</title>
       <link>https://hblanchard.me/posts/software-2021/</link>
       <pubDate>Mon, 11 Oct 2021 13:54:41 +0200</pubDate>
@@ -41,17 +63,6 @@ key: ${CI_COMMIT_REF_SLUG}-composer</description>
       <guid>https://hblanchard.me/posts/streaming-services/</guid>
       
         <description>On peut se perdre face à tous les acteurs de ce milieu.</description>
-      
-    </item>
-    
-    <item>
-      <title>Assassin&#39;s Creed n&#39;est plus Assassin&#39;s Creed</title>
-      <link>https://hblanchard.me/posts/assassins-creed-analyse/</link>
-      <pubDate>Mon, 27 Sep 2021 13:51:58 +0200</pubDate>
-      
-      <guid>https://hblanchard.me/posts/assassins-creed-analyse/</guid>
-      
-        <description>La licence a perdu son objectif premier de vue, nous faire voyager.</description>
       
     </item>
     
